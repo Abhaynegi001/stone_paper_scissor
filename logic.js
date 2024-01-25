@@ -36,13 +36,13 @@ const playGame = (userChoice) =>{
     game.innerHTML = `<div class="game">
     <div>
         <div class="user setimage">
-            <img src="/images/${userChoice}.png" alt="">
+            <img src="images/${userChoice}.png" alt="">
         </div>
         <h1>you</h1>
     </div>
     <div>
         <div class="Computer setimage">
-            <img src="/images/${comChoice}.png" alt="">
+            <img src="images/${comChoice}.png" alt="">
          </div>
             <h1>Computer</h1>
      </div>
